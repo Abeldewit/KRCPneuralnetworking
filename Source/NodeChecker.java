@@ -1,5 +1,8 @@
+import java.util.*;
+
 public class NodeChecker {
   public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
     Node set1 = new Node();
 
     System.out.println("Start...");
@@ -14,8 +17,8 @@ public class NodeChecker {
     node1 = set1.getNode1();
     node2 = set1.getNode2();
 
-
-    learningstep = 0.1;
+    System.out.print("Learning step: ")
+    learningstep = in.nextDouble();
 
 
     int choice1 = 0;
