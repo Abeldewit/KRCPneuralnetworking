@@ -2,9 +2,9 @@ import java.util.*;
 
 public class Node {
   public Node() {
-    bias = 0-(Math.random()*50-25);
-    node1 = Math.random()*4;
-    node2 = Math.random()*4;
+    bias = 0-(Math.random()*20-10);
+    node1 = Math.random()*2;
+    node2 = Math.random()*2;
   }
 
   public double getBias() {
